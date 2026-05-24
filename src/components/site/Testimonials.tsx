@@ -1,15 +1,21 @@
 import { Quote, Star } from "lucide-react";
 
 const testimonials = [
-  {
-    name: "Dhana Lakshmi",
-    role: "Founder",
-    text: "Liker's redesigned our entire e-commerce platform. Page speed jumped 3x and conversions are up 42%. Truly a partner, not just a vendor.",
-  },
+ {
+  name: "Dhana Lakshmi",
+  role: "Founder",
+  text: (
+    <>
+      <b>True visionary leader</b>
+      <br />
+      "Rare gift for taking complex, abstract ideas and translating them into tangible, successful realities."
+    </>
+  ),
+},
   {
     name: "Dhana Lakshmi",
     role: "Developer,Markiting Head",
-    text: "Their SEO and content strategy doubled our organic traffic in six months. The team is responsive, transparent, and incredibly skilled.",
+    text: <><b>High performance</b><br /> "Collaborate efficiently, meet goals, and produce high-quality outcomes"</>
   },
   {
     name: "Dhana Lakshmi",
@@ -24,10 +30,10 @@ export const Testimonials = () => {
       <div className="container">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-primary-soft text-primary text-xs font-semibold uppercase tracking-wider mb-4">
-            Testimonials
+           Our teams
           </div>
           <h2 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl text-foreground mb-4">
-            Loved by <span className="gradient-text">forward-thinking teams</span>
+            <span className="gradient-text"></span>
           </h2>
         </div>
 

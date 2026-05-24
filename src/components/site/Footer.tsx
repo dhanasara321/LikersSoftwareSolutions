@@ -31,7 +31,7 @@ const socials = [
   {
     icon: Twitter,
     label: "Twitter",
-    href: "https://twitter.com/yourusername",
+    href: "https://x.com/likers_2026",
   },
   {
     icon: Linkedin,
@@ -41,7 +41,7 @@ const socials = [
   {
     icon: Instagram,
     label: "Instagram",
-    href: "https://www.instagram.com/likers_2026?igsh=MW0xMDlpazdqZXRnMQ%3D%3D",
+    href: "https://www.instagram.com/likers_2026/",
   },
   // {
   //   icon: Github,
