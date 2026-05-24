@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { Code2, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-
+import logo from "@/assets/logo.png";
 const links = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
@@ -34,15 +34,19 @@ export const Navbar = () => {
     >
       <nav className="container flex h-16 md:h-20 items-center justify-between">
         <a href="#home" className="flex items-center gap-2 group">
-          <div className="h-9 w-9 rounded-lg gradient-primary flex items-center justify-center shadow-glow group-hover:scale-110 transition-base">
-            <Code2 className="h-5 w-5 text-primary-foreground" />
-          </div>
+          <div className="h-10 w-10 overflow-hidden rounded-xl shadow-glow group-hover:scale-110 transition-base bg-white flex items-center justify-center">
+  <img
+    src={logo}
+    alt="Liker's Software Solution"
+    className="h-full w-full object-cover"
+  />
+</div>
           <div className="leading-tight">
             <div className={cn("font-display font-bold text-base md:text-lg", scrolled ? "text-foreground" : "text-primary-foreground")}>
               Liker's
             </div>
             <div className={cn("text-[10px] md:text-xs font-medium tracking-wider uppercase", scrolled ? "text-muted-foreground" : "text-primary-foreground/70")}>
-              Software Solution
+              Software Solutions
             </div>
           </div>
         </a>
