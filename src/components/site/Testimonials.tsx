@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: "Dhana Lakshmi",
     role: "Docent",
-    text: "From scoping to launch in 10 weeks. Clean code, beautiful design, and a dashboard our doctors actually love using.",
+    text: "Passionate and engaging education Docent with 4+ Years of experience,Eductional Material Creation,Differentiated Instruction",
   },
 ];
 
