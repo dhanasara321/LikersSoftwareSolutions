@@ -13,8 +13,8 @@ const testimonials = [
   ),
 },
   {
-    name: "Dhana Lakshmi",
-    role: "Developer,Markiting Head",
+    name: "Karthikeyan",
+    role: "Developer",
     text: <><b>High performance</b><br /> "Collaborate efficiently, meet goals, and produce high-quality outcomes"</>
   },
   {
